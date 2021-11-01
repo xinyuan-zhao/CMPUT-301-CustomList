@@ -33,6 +33,7 @@ public class CustomListTest {
         list.addCity(new City("Edmonton","Alberta"));
 
         list.hasCity(new City("Edmonton","Alberta"));
+
         assertEquals(true, true);
     }
     @Test
